@@ -2,14 +2,26 @@ body {
     text-align: center;
     font-family: "Montserrat";
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 h2 {
     color: #00bcd4;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
+    margin: 15px 0;
 }
 
+h3 {
+    font-size: 1.4rem;
+}
+
+hr {
+    margin: 50px 45%;
+    border: none;
+    border-top: dotted 8px #d9ccd1;
+}
+
+/* base components */
 .container-fluid {
     padding: 7% 15% 1% 15%;
     position: relative;
@@ -26,13 +38,13 @@ h2 {
 
 .top-cloud {
     position: absolute;
-    right: 25%;
+    right: 20%;
     animation: TopCloud 3s linear infinite;
 }
 
 .bottom-cloud {
     position: absolute;
-    left: 25%;
+    left: 20%;
     animation: BottomCloud 5s linear infinite;
 }
 
@@ -63,7 +75,7 @@ h2 {
 }
 
 /* screen size */
-@media (max-width: 1300px) {
+@media (max-width: 1000px) {
     .top-cloud {
         width: 20%;
         right: 1%;
@@ -77,6 +89,6 @@ h2 {
     }
 
     .lotus {
-        width: 100%;
+        width: 80%;
     }
 }
