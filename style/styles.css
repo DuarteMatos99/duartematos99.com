@@ -16,7 +16,7 @@ h3 {
 }
 
 hr {
-    margin: 50px 45%;
+    margin: 50px 48%;
     border: none;
     border-top: dotted 8px #d9ccd1;
 }
@@ -90,5 +90,9 @@ hr {
 
     .lotus {
         width: 80%;
+    }
+
+    hr {
+        margin: 50px 45%;
     }
 }
