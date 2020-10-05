@@ -89,7 +89,6 @@ p {
     background-color: #00bcd4;
     color: #fff;
 }
-
 /* end middle container */
 
 /* bottom container */
@@ -103,7 +102,6 @@ p {
     font-size: 25px;
     margin-bottom: 10px;
 }
-
 /* end bottom container */
 
 /* animations */
@@ -159,9 +157,5 @@ p {
         width: 80%;
     }
     /* end top container */
-
-    /* middle container */
-
-    /* end middle container */
 }
 /* end screen size */
