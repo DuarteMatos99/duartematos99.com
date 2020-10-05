@@ -44,9 +44,9 @@
 
         <div class="container-fluid middle-container">
             <div class="profile">
-                <img src="images/me.png" alt="duarte-matos" />
+                <img class="my-self" src="images/me.png" alt="duarte-matos" />
                 <h2>Hello.</h2>
-                <p>
+                <p class="paragraph">
                     I'm a developer / web designer based in Lisbon, Portugal. I
                     have a passion for programing and love to create for web.
                 </p>
@@ -54,25 +54,28 @@
             <hr />
             <div class="skills">
                 <h2>My Skills.</h2>
-                <div class="skill-develop">
-                    <div class="skill-description">
-                        <i class="fas fa-code"></i>
-                        <h3>Develop.</h3>
-                        <p>
-                            I'm a developer, so I know how to create apps and
-                            websites to run across devices using the latest
-                            technologies available.
-                        </p>
+                <div class="row">
+                    <div class="col-lg-12 skill-description">
+                        <div class="skill-develop paragraph">
+                            <i class="fas fa-code"></i>
+                            <h3>Develop.</h3>
+                            <p>
+                                I'm a developer, so I know how to create apps
+                                and websites to run across devices using the
+                                latest technologies available.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="skill-design">
-                    <div class="skill-description">
-                        <i class="fas fa-palette"></i>
-                        <h3>Design.</h3>
-                        <p>
-                            I like to keep it simple. My goals are to focus on
-                            typography, content and user experience / interface.
-                        </p>
+                    <div class="col-lg-12 skill-description">
+                        <div class="skill-design paragraph">
+                            <i class="fas fa-palette"></i>
+                            <h3>Design.</h3>
+                            <p>
+                                I like to keep it simple. My goals are to focus
+                                on typography, content and user experience /
+                                interface.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -80,12 +83,16 @@
             <div class="contact-me">
                 <h2>Get In Touch.</h2>
                 <p>I’m currently available.</p>
-                <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+                <button class="btn">contact me</button>
             </div>
         </div>
 
         <div class="container-fluid bottom-container">
-            <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+            <a
+                class="fab fa-linkedin-in"
+                href="https://www.linkedin.com/in/duarte-matos-9b90a518b/"
+                target="_blank"
+            ></a>
             <p>© 2020 Duarte Matos. All rights reserved.</p>
         </div>
 
